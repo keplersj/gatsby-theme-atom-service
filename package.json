@@ -1,0 +1,60 @@
+{
+  "name": "gatsby-theme-atom-service",
+  "version": "0.0.0-development",
+  "description": "Gatsby theme for website that curate Atom packages that provide and consume an Atom service",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keplersj/gatsby-theme-atom-service.git"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-theme",
+    "atom",
+    "atomlinter",
+    "atom-linter",
+    "atombuild",
+    "atom-build",
+    "lint"
+  ],
+  "author": "Kepler Sticka-Jones <kepler@stickajones.org>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/keplersj/gatsby-theme-atom-service/issues"
+  },
+  "homepage": "https://github.com/keplersj/gatsby-theme-atom-service#readme",
+  "devDependencies": {
+    "@types/react": "^16.9.5",
+    "gatsby": "^2.15.29",
+    "jest": "^24.9.0",
+    "jest-runner-prettier": "^0.3.1",
+    "prettier": "^1.18.2",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "typescript": "^3.6.3"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.5.0",
+    "@material-ui/icons": "^4.4.3",
+    "@material-ui/styles": "^4.5.0",
+    "@types/lodash": "^4.14.142",
+    "@types/react-helmet": "^5.0.11",
+    "gatsby-plugin-lodash": "^3.1.10",
+    "gatsby-plugin-material-ui": "^2.1.6",
+    "gatsby-plugin-react-helmet": "^3.1.10",
+    "gatsby-plugin-typescript": "^2.1.11",
+    "gatsby-source-filesystem": "^2.1.29",
+    "gatsby-transformer-yaml": "^2.2.12",
+    "lodash": "^4.17.15",
+    "react-helmet": "^5.2.1",
+    "typeface-roboto": "^0.0.75"
+  },
+  "peerDependencies": {
+    "gatsby": "^2.13.13",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
