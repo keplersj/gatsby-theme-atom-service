@@ -73,7 +73,6 @@ YAML is used to curate your list of provider and consumer packages. In your cont
 ```yml
 - type:
   title: ""
-  plural: ""
   modal: ""
   types:
     - title: ""

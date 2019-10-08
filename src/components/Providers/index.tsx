@@ -10,7 +10,6 @@ interface ProvidersQuery {
       node: {
         id: string;
         title: string;
-        plural: string;
         modal: string;
         types: {
           title: string;
@@ -33,7 +32,6 @@ const Providers = () => {
           node {
             id
             title
-            plural
             modal
             types {
               title
