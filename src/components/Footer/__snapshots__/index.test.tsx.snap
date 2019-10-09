@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer renders as expected 1`] = `
+<footer
+  className="MuiBox-root MuiBox-root-3 makeStyles-footer-1"
+>
+  <p
+    className="MuiTypography-root MuiTypography-body1"
+  >
+    Copyright 
+    Example Title
+  </p>
+</footer>
+`;
