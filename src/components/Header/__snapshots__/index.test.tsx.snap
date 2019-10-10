@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders as expected 1`] = `
+<div
+  className="MuiContainer-root makeStyles-banner-1 MuiContainer-maxWidthXl"
+>
+  <img
+    height="225em"
+    src="/static/logo.svg"
+    width="225em"
+  />
+  <h2
+    className="MuiTypography-root MuiTypography-h2"
+  >
+    Example Site
+  </h2>
+  <h4
+    className="MuiTypography-root MuiTypography-h4"
+  >
+    This is an example site description.
+  </h4>
+</div>
+`;
