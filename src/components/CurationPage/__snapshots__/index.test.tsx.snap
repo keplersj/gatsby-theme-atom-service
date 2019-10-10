@@ -1,0 +1,275 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Curation Page renders as expected 1`] = `
+Array [
+  <head>
+    Object {}
+    Object {
+      "lang": "en",
+    }
+    <link
+      data-react-helmet={true}
+      href="https://example.dev"
+      rel="canonical"
+    />
+    <meta
+      content="This is an example of a site description."
+      data-react-helmet={true}
+      name="description"
+    />
+    <meta
+      content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no"
+      data-react-helmet={true}
+      name="viewport"
+    />
+    <title
+      data-react-helmet={true}
+    >
+      Example Site
+    </title>
+  </head>
+
+<nav
+    className="makeStyles-root-2"
+  >
+    <header
+      className="MuiPaper-root MuiPaper-elevation4 MuiAppBar-root MuiAppBar-positionStatic makeStyles-bar-3 MuiAppBar-colorPrimary"
+    >
+      <div
+        className="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
+      >
+        <button
+          aria-label="menu"
+          className="MuiButtonBase-root MuiIconButton-root makeStyles-menuButton-4 MuiIconButton-colorInherit MuiIconButton-edgeStart"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          <span
+            className="MuiIconButton-label"
+          >
+            <svg
+              aria-hidden="true"
+              className="MuiSvgIcon-root"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+              />
+            </svg>
+          </span>
+          <span
+            className="MuiTouchRipple-root"
+          />
+        </button>
+        <h6
+          className="MuiTypography-root makeStyles-title-5 MuiTypography-h6"
+        >
+          Example Site
+        </h6>
+      </div>
+    </header>
+  </nav>,
+  <div
+    className="MuiContainer-root makeStyles-banner-109 MuiContainer-maxWidthXl"
+  >
+    <img
+      height="225em"
+      width="225em"
+    />
+    <h2
+      className="MuiTypography-root MuiTypography-h2"
+    >
+      Example Site
+    </h2>
+    <h4
+      className="MuiTypography-root MuiTypography-h4"
+    >
+      This is an example of a site description.
+    </h4>
+  </div>,
+  <main
+    className="MuiContainer-root makeStyles-content-1 MuiContainer-maxWidthLg"
+  >
+    <div
+      id="consumers"
+    >
+      <h2>
+        Consumers
+      </h2>
+      <div
+        className="MuiGrid-root MuiGrid-container MuiGrid-justify-xs-space-evenly"
+      >
+        <div
+          className="MuiGrid-root makeStyles-gridItem-220 MuiGrid-item"
+        >
+          <div
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-cardBase-221 MuiPaper-rounded"
+          >
+            <div
+              className="MuiCardContent-root"
+            >
+              <h2>
+                Example Consumer
+              </h2>
+              <div>
+                Maintained by Name McNameson
+              </div>
+            </div>
+            <hr
+              className="MuiDivider-root"
+            />
+            <div
+              className="MuiCardActions-root MuiCardActions-spacing"
+            >
+              <div
+                className="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-column MuiGrid-wrap-xs-nowrap"
+              >
+                <a
+                  aria-disabled={false}
+                  className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-text"
+                  href="https://example.dev/consumer"
+                  onBlur={[Function]}
+                  onDragLeave={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={[Function]}
+                  onMouseDown={[Function]}
+                  onMouseLeave={[Function]}
+                  onMouseUp={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchMove={[Function]}
+                  onTouchStart={[Function]}
+                  tabIndex={0}
+                >
+                  <span
+                    className="MuiButton-label"
+                  >
+                    Atom Package Manager
+                  </span>
+                  <span
+                    className="MuiTouchRipple-root"
+                  />
+                </a>
+                <a
+                  aria-disabled={false}
+                  className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-text"
+                  href="https://github.com/example/atom-consumer"
+                  onBlur={[Function]}
+                  onDragLeave={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={[Function]}
+                  onMouseDown={[Function]}
+                  onMouseLeave={[Function]}
+                  onMouseUp={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchMove={[Function]}
+                  onTouchStart={[Function]}
+                  tabIndex={0}
+                >
+                  <span
+                    className="MuiButton-label"
+                  >
+                    Source Code on GitHub
+                  </span>
+                  <span
+                    className="MuiTouchRipple-root"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      id="example-category"
+    >
+      <h2>
+        Example Catergory
+      </h2>
+      <div
+        className="MuiGrid-root MuiGrid-container MuiGrid-justify-xs-space-evenly"
+      >
+        <div
+          className="MuiGrid-root makeStyles-gridItem-220 MuiGrid-item"
+        >
+          <div
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-cardBase-221 MuiPaper-rounded"
+          >
+            <div
+              className="MuiCardContent-root"
+            >
+              <h2>
+                Example Provider Type
+              </h2>
+            </div>
+            <hr
+              className="MuiDivider-root"
+            />
+            <div
+              className="MuiCardActions-root MuiCardActions-spacing"
+            >
+              <div
+                className="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-column MuiGrid-wrap-xs-nowrap"
+              >
+                <a
+                  aria-disabled={false}
+                  className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-text"
+                  href="https://example.dev/provider"
+                  onBlur={[Function]}
+                  onDragLeave={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={[Function]}
+                  onMouseDown={[Function]}
+                  onMouseLeave={[Function]}
+                  onMouseUp={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchMove={[Function]}
+                  onTouchStart={[Function]}
+                  tabIndex={0}
+                >
+                  <span
+                    className="MuiButton-label"
+                  >
+                    Example Provider
+                  </span>
+                  <span
+                    className="MuiTouchRipple-root"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>,
+  <footer
+    className="MuiBox-root MuiBox-root-262 makeStyles-footer-260"
+  >
+    <p
+      className="MuiTypography-root MuiTypography-body1"
+    >
+      Copyright 
+      Example Site
+    </p>
+  </footer>,
+]
+`;
