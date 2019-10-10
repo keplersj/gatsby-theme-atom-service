@@ -27,6 +27,7 @@ const Consumers = () => {
       <Grid container justify="space-evenly">
         {sortBy(data.consumers.edges, "node.title").map(({ node }: any) => (
           <Card
+            key={node.id}
             title={node.title}
             subtitle={`Maintained by ${node.author}`}
             links={[

@@ -113,7 +113,7 @@ const Nav = () => {
             </Typography>
             <Hidden only={["xs", "sm"]}>
               {data.site.siteMetadata.nav.map(link => (
-                <Button color="inherit" href={link.url}>
+                <Button key={link.name} color="inherit" href={link.url}>
                   {link.name}
                 </Button>
               ))}

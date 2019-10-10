@@ -55,6 +55,7 @@ const Providers = () => {
           <Grid container justify="space-evenly">
             {sortBy(scope.types, "title").map(type => (
               <Card
+                key={type.title}
                 title={type.title}
                 links={type.packages.map(pkg => ({
                   name: pkg.title,

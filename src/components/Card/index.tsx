@@ -44,7 +44,9 @@ export const Card = (props: Props) => {
         <CardActions>
           <Grid container direction="column" wrap="nowrap">
             {props.links.map(link => (
-              <Button href={link.url}>{link.name}</Button>
+              <Button key={link.name} href={link.url}>
+                {link.name}
+              </Button>
             ))}
           </Grid>
         </CardActions>
