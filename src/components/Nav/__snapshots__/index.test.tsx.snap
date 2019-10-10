@@ -1,5 +1,62 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Nav opens the drawer when the menu icon is pressed 1`] = `
+<div
+  data-testid="drawer-content"
+  role="presentation"
+>
+  <ul
+    class="MuiList-root MuiList-padding"
+  >
+    <a
+      aria-disabled="false"
+      class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button"
+      href="https://example.dev/"
+      tabindex="0"
+    >
+      <div
+        class="MuiListItemText-root"
+      >
+        <span
+          class="MuiTypography-root MuiListItemText-primary MuiTypography-body1"
+        >
+          Example Link
+        </span>
+      </div>
+      <span
+        class="MuiTouchRipple-root"
+      />
+    </a>
+  </ul>
+  <hr
+    class="MuiDivider-root"
+  />
+  <ul
+    class="MuiList-root MuiList-padding"
+  >
+    <a
+      aria-disabled="false"
+      class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button"
+      href="#example"
+      tabindex="0"
+    >
+      <div
+        class="MuiListItemText-root"
+      >
+        <span
+          class="MuiTypography-root MuiListItemText-primary MuiTypography-body1"
+        >
+          Example Section
+        </span>
+      </div>
+      <span
+        class="MuiTouchRipple-root"
+      />
+    </a>
+  </ul>
+</div>
+`;
+
 exports[`Nav renders as expected 1`] = `
 <nav
   className="makeStyles-root-1"

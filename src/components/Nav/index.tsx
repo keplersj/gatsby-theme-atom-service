@@ -124,6 +124,7 @@ const Nav = () => {
       <Drawer open={state.drawerOpen} onClose={toggleDrawer(false)}>
         <div
           role="presentation"
+          data-testid="drawer-content"
           onClick={toggleDrawer(false)}
           onKeyDown={toggleDrawer(false)}
         >
