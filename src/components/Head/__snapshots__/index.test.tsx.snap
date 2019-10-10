@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Head renders as expected 1`] = `
+<head>
+  Object {}
+  Object {
+    "lang": "en",
+  }
+  <link
+    data-react-helmet={true}
+    href="https://example.dev/"
+    rel="canonical"
+  />
+  <meta
+    content="This is a an example site description."
+    data-react-helmet={true}
+    name="description"
+  />
+  <meta
+    content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no"
+    data-react-helmet={true}
+    name="viewport"
+  />
+  <title
+    data-react-helmet={true}
+  >
+    Example Site
+  </title>
+</head>
+
+<div />
+`;
