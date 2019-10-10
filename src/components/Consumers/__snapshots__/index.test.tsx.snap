@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Consumers renders as expected 1`] = `
+<div
+  id="consumers"
+>
+  <h2>
+    Consumers
+  </h2>
+  <div
+    className="MuiGrid-root MuiGrid-container MuiGrid-justify-xs-space-evenly"
+  >
+    <div
+      className="MuiGrid-root makeStyles-gridItem-104 MuiGrid-item"
+    >
+      <div
+        className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-cardBase-105 MuiPaper-rounded"
+      >
+        <div
+          className="MuiCardContent-root"
+        >
+          <h2>
+            Example Consumer
+          </h2>
+          <div>
+            Maintained by Namey McNameson
+          </div>
+        </div>
+        <hr
+          className="MuiDivider-root"
+        />
+        <div
+          className="MuiCardActions-root MuiCardActions-spacing"
+        >
+          <div
+            className="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-column MuiGrid-wrap-xs-nowrap"
+          >
+            <a
+              aria-disabled={false}
+              className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-text"
+              href="https://example.dev/consumer"
+              onBlur={[Function]}
+              onDragLeave={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              tabIndex={0}
+            >
+              <span
+                className="MuiButton-label"
+              >
+                Atom Package Manager
+              </span>
+            </a>
+            <a
+              aria-disabled={false}
+              className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-text"
+              href="https://github.dev/example/consumer"
+              onBlur={[Function]}
+              onDragLeave={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              tabIndex={0}
+            >
+              <span
+                className="MuiButton-label"
+              >
+                Source Code on GitHub
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
