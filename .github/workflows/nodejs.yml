@@ -24,8 +24,8 @@ jobs:
         run: npm test
         env:
           CI: true
-      # - name: Run Stryker
-      #   run: npx stryker run
+      - name: Run Stryker
+        run: npx stryker run
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v1.0.0
         with:

@@ -10,7 +10,12 @@ module.exports = {
     {
       displayName: "lint:prettier",
       preset: "jest-runner-prettier",
-      testPathIgnorePatterns: ["/node_modules/", "/coverage/"]
+      testPathIgnorePatterns: [
+        "/node_modules/",
+        "/coverage/",
+        "/reports/",
+        "/.stryker-tmp/"
+      ]
     }
   ]
 };
