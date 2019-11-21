@@ -68,7 +68,8 @@ const Providers = () => {
                       applicationSubCategory: "Atom Package",
                       name: pkg.title,
                       url: pkg.url,
-                      mainEntityOfPage: pkg.url
+                      mainEntityOfPage: pkg.url,
+                      operatingSystem: "macOS, Windows, Linux"
                     }}
                   />
                 ))}

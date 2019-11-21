@@ -38,7 +38,8 @@ const Consumers = () => {
                 applicationCategory: "Development Tool",
                 applicationSubCategory: "Atom Package",
                 url: node.url,
-                mainEntityOfPage: node.url
+                mainEntityOfPage: node.url,
+                operatingSystem: "macOS, Windows, Linux"
               }}
             />
             <JsonLd<SoftwareSourceCode>

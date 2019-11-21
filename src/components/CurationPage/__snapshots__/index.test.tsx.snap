@@ -118,7 +118,7 @@ Array [
         <script
           dangerouslySetInnerHTML={
             Object {
-              "__html": "{\\"@context\\":\\"https://schema.org\\",\\"@type\\":\\"SoftwareApplication\\",\\"@id\\":\\"https://example.dev/consumer\\",\\"name\\":\\"Example Consumer\\",\\"applicationCategory\\":\\"Development Tool\\",\\"applicationSubCategory\\":\\"Atom Package\\",\\"url\\":\\"https://example.dev/consumer\\",\\"mainEntityOfPage\\":\\"https://example.dev/consumer\\"}",
+              "__html": "{\\"@context\\":\\"https://schema.org\\",\\"@type\\":\\"SoftwareApplication\\",\\"@id\\":\\"https://example.dev/consumer\\",\\"name\\":\\"Example Consumer\\",\\"applicationCategory\\":\\"Development Tool\\",\\"applicationSubCategory\\":\\"Atom Package\\",\\"url\\":\\"https://example.dev/consumer\\",\\"mainEntityOfPage\\":\\"https://example.dev/consumer\\",\\"operatingSystem\\":\\"macOS, Windows, Linux\\"}",
             }
           }
           type="application/ld+json"
@@ -226,7 +226,7 @@ Array [
         <script
           dangerouslySetInnerHTML={
             Object {
-              "__html": "{\\"@context\\":\\"https://schema.org\\",\\"@type\\":\\"SoftwareApplication\\",\\"@id\\":\\"https://example.dev/provider\\",\\"applicationCategory\\":\\"Development Tool\\",\\"applicationSubCategory\\":\\"Atom Package\\",\\"name\\":\\"Example Provider\\",\\"url\\":\\"https://example.dev/provider\\",\\"mainEntityOfPage\\":\\"https://example.dev/provider\\"}",
+              "__html": "{\\"@context\\":\\"https://schema.org\\",\\"@type\\":\\"SoftwareApplication\\",\\"@id\\":\\"https://example.dev/provider\\",\\"applicationCategory\\":\\"Development Tool\\",\\"applicationSubCategory\\":\\"Atom Package\\",\\"name\\":\\"Example Provider\\",\\"url\\":\\"https://example.dev/provider\\",\\"mainEntityOfPage\\":\\"https://example.dev/provider\\",\\"operatingSystem\\":\\"macOS, Windows, Linux\\"}",
             }
           }
           type="application/ld+json"
