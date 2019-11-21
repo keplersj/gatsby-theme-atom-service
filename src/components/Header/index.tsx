@@ -28,7 +28,7 @@ const Header = () => {
 
   return (
     <Container className={classes.banner} maxWidth="xl">
-      <img src={data.logo.publicURL} width="225em" height="225em" />
+      <img src={data.logo.publicURL} width="225em" height="225em" alt="" />
       <Typography variant="h2">{data.site.siteMetadata.title}</Typography>
       <Typography variant="h4">{data.site.siteMetadata.description}</Typography>
     </Container>

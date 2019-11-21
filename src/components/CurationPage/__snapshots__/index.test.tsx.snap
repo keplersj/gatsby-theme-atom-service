@@ -88,6 +88,7 @@ Array [
     className="MuiContainer-root makeStyles-banner-109 MuiContainer-maxWidthXl"
   >
     <img
+      alt=""
       height="225em"
       width="225em"
     />

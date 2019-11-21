@@ -5,6 +5,7 @@ exports[`Header renders as expected 1`] = `
   className="MuiContainer-root makeStyles-banner-1 MuiContainer-maxWidthXl"
 >
   <img
+    alt=""
     height="225em"
     src="/static/logo.svg"
     width="225em"
