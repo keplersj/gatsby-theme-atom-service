@@ -61,6 +61,8 @@
     "gatsby-transformer-yaml": "^2.2.12",
     "lodash": "^4.17.15",
     "react-helmet": "^5.2.1",
+    "react-schemaorg": "^1.0.0",
+    "schema-dts": "^0.4.5",
     "typeface-roboto": "^0.0.75"
   },
   "peerDependencies": {

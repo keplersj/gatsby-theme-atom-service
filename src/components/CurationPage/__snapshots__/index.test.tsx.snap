@@ -114,6 +114,22 @@ Array [
       <div
         className="MuiGrid-root MuiGrid-container MuiGrid-justify-xs-space-evenly"
       >
+        <script
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "{\\"@context\\":\\"https://schema.org\\",\\"@type\\":\\"SoftwareApplication\\",\\"@id\\":\\"https://example.dev/consumer\\",\\"name\\":\\"Example Consumer\\",\\"applicationCategory\\":\\"Development Tool\\",\\"applicationSubCategory\\":\\"Atom Package\\",\\"url\\":\\"https://example.dev/consumer\\",\\"mainEntityOfPage\\":\\"https://example.dev/consumer\\"}",
+            }
+          }
+          type="application/ld+json"
+        />
+        <script
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "{\\"@context\\":\\"https://schema.org\\",\\"@type\\":\\"SoftwareSourceCode\\",\\"@id\\":\\"https://github.com/example/atom-consumer\\",\\"targetProduct\\":{\\"@type\\":\\"SoftwareApplication\\",\\"@id\\":\\"https://example.dev/consumer\\"},\\"codeRepository\\":\\"https://github.com/example/atom-consumer\\",\\"url\\":\\"https://github.com/example/atom-consumer\\",\\"mainEntityOfPage\\":\\"https://github.com/example/atom-consumer\\"}",
+            }
+          }
+          type="application/ld+json"
+        />
         <div
           className="MuiGrid-root makeStyles-gridItem-220 MuiGrid-item"
         >
@@ -206,6 +222,14 @@ Array [
       <div
         className="MuiGrid-root MuiGrid-container MuiGrid-justify-xs-space-evenly"
       >
+        <script
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "{\\"@context\\":\\"https://schema.org\\",\\"@type\\":\\"SoftwareApplication\\",\\"@id\\":\\"https://example.dev/provider\\",\\"applicationCategory\\":\\"Development Tool\\",\\"applicationSubCategory\\":\\"Atom Package\\",\\"name\\":\\"Example Provider\\",\\"url\\":\\"https://example.dev/provider\\",\\"mainEntityOfPage\\":\\"https://example.dev/provider\\"}",
+            }
+          }
+          type="application/ld+json"
+        />
         <div
           className="MuiGrid-root makeStyles-gridItem-220 MuiGrid-item"
         >

@@ -2,6 +2,8 @@ import { graphql, useStaticQuery } from "gatsby";
 import { sortBy } from "lodash";
 import * as React from "react";
 import { Grid } from "@material-ui/core";
+import { JsonLd } from "react-schemaorg";
+import { SoftwareApplication } from "schema-dts";
 import { Card } from "../Card";
 
 interface ProvidersQuery {
@@ -54,14 +56,30 @@ const Providers = () => {
           <h2>{scope.title}</h2>
           <Grid container justify="space-evenly">
             {sortBy(scope.types, "title").map(type => (
-              <Card
-                key={type.title}
-                title={type.title}
-                links={type.packages.map(pkg => ({
-                  name: pkg.title,
-                  url: pkg.url
-                }))}
-              />
+              <React.Fragment key={type.title}>
+                {type.packages.map(pkg => (
+                  <JsonLd<SoftwareApplication>
+                    key={pkg.url}
+                    item={{
+                      "@context": "https://schema.org",
+                      "@type": "SoftwareApplication",
+                      "@id": pkg.url,
+                      applicationCategory: "Development Tool",
+                      applicationSubCategory: "Atom Package",
+                      name: pkg.title,
+                      url: pkg.url,
+                      mainEntityOfPage: pkg.url
+                    }}
+                  />
+                ))}
+                <Card
+                  title={type.title}
+                  links={type.packages.map(pkg => ({
+                    name: pkg.title,
+                    url: pkg.url
+                  }))}
+                />
+              </React.Fragment>
             ))}
           </Grid>
         </div>

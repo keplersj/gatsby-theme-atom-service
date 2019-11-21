@@ -10,6 +10,22 @@ exports[`Consumers renders as expected 1`] = `
   <div
     className="MuiGrid-root MuiGrid-container MuiGrid-justify-xs-space-evenly"
   >
+    <script
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "{\\"@context\\":\\"https://schema.org\\",\\"@type\\":\\"SoftwareApplication\\",\\"@id\\":\\"https://example.dev/consumer\\",\\"name\\":\\"Example Consumer\\",\\"applicationCategory\\":\\"Development Tool\\",\\"applicationSubCategory\\":\\"Atom Package\\",\\"url\\":\\"https://example.dev/consumer\\",\\"mainEntityOfPage\\":\\"https://example.dev/consumer\\"}",
+        }
+      }
+      type="application/ld+json"
+    />
+    <script
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "{\\"@context\\":\\"https://schema.org\\",\\"@type\\":\\"SoftwareSourceCode\\",\\"@id\\":\\"https://github.dev/example/consumer\\",\\"targetProduct\\":{\\"@type\\":\\"SoftwareApplication\\",\\"@id\\":\\"https://example.dev/consumer\\"},\\"codeRepository\\":\\"https://github.dev/example/consumer\\",\\"url\\":\\"https://github.dev/example/consumer\\",\\"mainEntityOfPage\\":\\"https://github.dev/example/consumer\\"}",
+        }
+      }
+      type="application/ld+json"
+    />
     <div
       className="MuiGrid-root makeStyles-gridItem-104 MuiGrid-item"
     >
