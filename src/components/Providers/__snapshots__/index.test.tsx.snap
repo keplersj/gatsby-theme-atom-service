@@ -11,13 +11,20 @@ exports[`Providers renders as expected 1`] = `
     className="MuiGrid-root MuiGrid-container MuiGrid-justify-xs-space-evenly"
   >
     <script
-      dangerouslySetInnerHTML={
-        Object {
-          "__html": "{\\"@context\\":\\"https://schema.org\\",\\"@type\\":\\"SoftwareApplication\\",\\"@id\\":\\"https://example.dev/provider\\",\\"applicationCategory\\":\\"Development Tool\\",\\"applicationSubCategory\\":\\"Atom Package\\",\\"name\\":\\"Example Package\\",\\"url\\":\\"https://example.dev/provider\\",\\"mainEntityOfPage\\":\\"https://example.dev/provider\\",\\"operatingSystem\\":\\"macOS, Windows, Linux\\"}",
-        }
-      }
       type="application/ld+json"
-    />
+    >
+      Object {
+      "@context": "https://schema.org",
+      "@id": "https://example.dev/provider",
+      "@type": "SoftwareApplication",
+      "applicationCategory": "Development Tool",
+      "applicationSubCategory": "Atom Package",
+      "mainEntityOfPage": "https://example.dev/provider",
+      "name": "Example Package",
+      "operatingSystem": "macOS, Windows, Linux",
+      "url": "https://example.dev/provider",
+    }
+    </script>
     <div
       className="MuiGrid-root makeStyles-gridItem-104 MuiGrid-item"
     >

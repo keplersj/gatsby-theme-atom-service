@@ -11,21 +11,36 @@ exports[`Consumers renders as expected 1`] = `
     className="MuiGrid-root MuiGrid-container MuiGrid-justify-xs-space-evenly"
   >
     <script
-      dangerouslySetInnerHTML={
-        Object {
-          "__html": "{\\"@context\\":\\"https://schema.org\\",\\"@type\\":\\"SoftwareApplication\\",\\"@id\\":\\"https://example.dev/consumer\\",\\"name\\":\\"Example Consumer\\",\\"applicationCategory\\":\\"Development Tool\\",\\"applicationSubCategory\\":\\"Atom Package\\",\\"url\\":\\"https://example.dev/consumer\\",\\"mainEntityOfPage\\":\\"https://example.dev/consumer\\",\\"operatingSystem\\":\\"macOS, Windows, Linux\\"}",
-        }
-      }
       type="application/ld+json"
-    />
+    >
+      Object {
+      "@context": "https://schema.org",
+      "@id": "https://example.dev/consumer",
+      "@type": "SoftwareApplication",
+      "applicationCategory": "Development Tool",
+      "applicationSubCategory": "Atom Package",
+      "mainEntityOfPage": "https://example.dev/consumer",
+      "name": "Example Consumer",
+      "operatingSystem": "macOS, Windows, Linux",
+      "url": "https://example.dev/consumer",
+    }
+    </script>
     <script
-      dangerouslySetInnerHTML={
-        Object {
-          "__html": "{\\"@context\\":\\"https://schema.org\\",\\"@type\\":\\"SoftwareSourceCode\\",\\"@id\\":\\"https://github.dev/example/consumer\\",\\"targetProduct\\":{\\"@type\\":\\"SoftwareApplication\\",\\"@id\\":\\"https://example.dev/consumer\\"},\\"codeRepository\\":\\"https://github.dev/example/consumer\\",\\"url\\":\\"https://github.dev/example/consumer\\",\\"mainEntityOfPage\\":\\"https://github.dev/example/consumer\\"}",
-        }
-      }
       type="application/ld+json"
-    />
+    >
+      Object {
+      "@context": "https://schema.org",
+      "@id": "https://github.dev/example/consumer",
+      "@type": "SoftwareSourceCode",
+      "codeRepository": "https://github.dev/example/consumer",
+      "mainEntityOfPage": "https://github.dev/example/consumer",
+      "targetProduct": Object {
+        "@id": "https://example.dev/consumer",
+        "@type": "SoftwareApplication",
+      },
+      "url": "https://github.dev/example/consumer",
+    }
+    </script>
     <div
       className="MuiGrid-root makeStyles-gridItem-104 MuiGrid-item"
     >
