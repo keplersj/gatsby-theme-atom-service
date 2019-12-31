@@ -1,0 +1,9 @@
+- type:
+  title: "Example Category"
+  modal: "example"
+  types:
+    - title: "Example Subcategory"
+      modal: "example"
+      packages:
+        - title: "Example Provider"
+          url: https://atom.dev/packages/example-provider

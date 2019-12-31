@@ -1,0 +1,4 @@
+- title: "Example Consumer"
+  author: "ACME Organization"
+  url: https://atom.dev/packages/example-provider
+  code: https://github.dev/acme/atom-example-provider
