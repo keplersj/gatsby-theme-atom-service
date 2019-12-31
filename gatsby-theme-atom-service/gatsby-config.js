@@ -1,9 +1,13 @@
+const getThemeDefaults = require("./lib/theme-defaults");
+
 module.exports = options => {
-  const contentPath = options.contentPath || "./content/data/";
-  const assetPath = options.contentPath || "./content/assets/";
-  const renderConsumers = options.renderConsumers || true;
-  const renderProviders = options.renderProviders || true;
-  const basePath = options.basePath || "/";
+  const {
+    contentPath,
+    assetPath,
+    renderConsumers,
+    renderProviders,
+    basePath
+  } = getThemeDefaults(options);
 
   return {
     siteMetadata: {

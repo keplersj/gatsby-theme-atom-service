@@ -1,12 +1,12 @@
 const path = require("path");
 const fs = require("fs");
 const mkdirp = require("mkdirp");
+const getThemeDefaults = require("./lib/theme-defaults");
 
 // Ensure that content directories exist at site-level
 exports.onPreBootstrap = ({ store }, themeOptions) => {
   const { program } = store.getState();
-  const contentPath = themeOptions.contentPath || "./content/data/";
-  const assetPath = themeOptions.contentPath || "./content/assets/";
+  const { contentPath, assetPath } = getThemeDefaults(themeOptions);
 
   const dirs = [
     path.join(program.directory, contentPath),
