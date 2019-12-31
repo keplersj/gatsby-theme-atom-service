@@ -33,7 +33,7 @@ Array [
     className="makeStyles-root-2"
   >
     <header
-      className="MuiPaper-root MuiPaper-elevation4 MuiAppBar-root MuiAppBar-positionStatic makeStyles-bar-3 MuiAppBar-colorPrimary"
+      className="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic makeStyles-bar-3 MuiAppBar-colorPrimary MuiPaper-elevation4"
     >
       <div
         className="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
@@ -85,7 +85,7 @@ Array [
     </header>
   </nav>,
   <div
-    className="MuiContainer-root makeStyles-banner-109 MuiContainer-maxWidthXl"
+    className="MuiContainer-root makeStyles-banner-110 MuiContainer-maxWidthXl"
   >
     <img
       alt=""
@@ -147,10 +147,10 @@ Array [
         }
         </script>
         <div
-          className="MuiGrid-root makeStyles-gridItem-220 MuiGrid-item"
+          className="MuiGrid-root makeStyles-gridItem-222 MuiGrid-item"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-cardBase-221 MuiPaper-rounded"
+            className="MuiPaper-root MuiCard-root makeStyles-cardBase-223 MuiPaper-elevation1 MuiPaper-rounded"
           >
             <div
               className="MuiCardContent-root"
@@ -173,7 +173,7 @@ Array [
               >
                 <a
                   aria-disabled={false}
-                  className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-text"
+                  className="MuiButtonBase-root MuiButton-root MuiButton-text"
                   href="https://example.dev/consumer"
                   onBlur={[Function]}
                   onDragLeave={[Function]}
@@ -199,7 +199,7 @@ Array [
                 </a>
                 <a
                   aria-disabled={false}
-                  className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-text"
+                  className="MuiButtonBase-root MuiButton-root MuiButton-text"
                   href="https://github.com/example/atom-consumer"
                   onBlur={[Function]}
                   onDragLeave={[Function]}
@@ -254,10 +254,10 @@ Array [
         }
         </script>
         <div
-          className="MuiGrid-root makeStyles-gridItem-220 MuiGrid-item"
+          className="MuiGrid-root makeStyles-gridItem-222 MuiGrid-item"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-cardBase-221 MuiPaper-rounded"
+            className="MuiPaper-root MuiCard-root makeStyles-cardBase-223 MuiPaper-elevation1 MuiPaper-rounded"
           >
             <div
               className="MuiCardContent-root"
@@ -277,7 +277,7 @@ Array [
               >
                 <a
                   aria-disabled={false}
-                  className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-text"
+                  className="MuiButtonBase-root MuiButton-root MuiButton-text"
                   href="https://example.dev/provider"
                   onBlur={[Function]}
                   onDragLeave={[Function]}
@@ -309,7 +309,7 @@ Array [
     </div>
   </main>,
   <footer
-    className="MuiBox-root MuiBox-root-262 makeStyles-footer-260"
+    className="MuiBox-root MuiBox-root-265 makeStyles-footer-263"
   >
     <p
       className="MuiTypography-root MuiTypography-body1"
