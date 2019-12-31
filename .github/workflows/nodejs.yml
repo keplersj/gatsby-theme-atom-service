@@ -16,16 +16,10 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
-      - name: npm install
-        run: npm install
-        env:
-          CI: true
-      - name: npm test
-        run: npm test
-        env:
-          CI: true
+      - run: yarn
+      - run: yarn test
       - name: Run Stryker
-        run: npx stryker run
+        run: yarn workspace gatsby-theme-atom-service stryker run
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v1.0.0
         with:
