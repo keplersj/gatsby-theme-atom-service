@@ -5,7 +5,7 @@ exports[`Card with all props renders as expected 1`] = `
   className="MuiGrid-root makeStyles-gridItem-1 MuiGrid-item"
 >
   <div
-    className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-cardBase-2 MuiPaper-rounded"
+    className="MuiPaper-root MuiCard-root makeStyles-cardBase-2 MuiPaper-elevation1 MuiPaper-rounded"
   >
     <div
       className="MuiCardContent-root"
@@ -28,7 +28,7 @@ exports[`Card with all props renders as expected 1`] = `
       >
         <a
           aria-disabled={false}
-          className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-text"
+          className="MuiButtonBase-root MuiButton-root MuiButton-text"
           href="https://example.dev/"
           onBlur={[Function]}
           onDragLeave={[Function]}
@@ -63,7 +63,7 @@ exports[`Card with only required props renders as expected 1`] = `
   className="MuiGrid-root makeStyles-gridItem-1 MuiGrid-item"
 >
   <div
-    className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-cardBase-2 MuiPaper-rounded"
+    className="MuiPaper-root MuiCard-root makeStyles-cardBase-2 MuiPaper-elevation1 MuiPaper-rounded"
   >
     <div
       className="MuiCardContent-root"
@@ -83,7 +83,7 @@ exports[`Card with only required props renders as expected 1`] = `
       >
         <a
           aria-disabled={false}
-          className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-text"
+          className="MuiButtonBase-root MuiButton-root MuiButton-text"
           href="https://example.dev/"
           onBlur={[Function]}
           onDragLeave={[Function]}
