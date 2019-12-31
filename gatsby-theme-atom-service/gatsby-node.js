@@ -1,12 +1,17 @@
 const path = require("path");
 const fs = require("fs");
+const mkdirp = require("mkdirp");
 
 // Ensure that content directories exist at site-level
 exports.onPreBootstrap = ({ store }, themeOptions) => {
   const { program } = store.getState();
-  const contentPath = themeOptions.contentPath || "./content/";
+  const contentPath = themeOptions.contentPath || "./content/data/";
+  const assetPath = themeOptions.contentPath || "./content/assets/";
 
-  const dirs = [path.join(program.directory, contentPath)];
+  const dirs = [
+    path.join(program.directory, contentPath),
+    path.join(program.directory, assetPath)
+  ];
 
   dirs.forEach(dir => {
     if (!fs.existsSync(dir)) {
