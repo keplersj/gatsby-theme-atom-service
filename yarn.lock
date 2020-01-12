@@ -1325,13 +1325,13 @@
     typed-inject "~2.1.1"
     typed-rest-client "~1.7.1"
 
-"@stryker-mutator/html-reporter@^2.1.0":
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/@stryker-mutator/html-reporter/-/html-reporter-2.4.0.tgz#2d7d4370841604afbf6d6f3f7e2faaf174c16393"
-  integrity sha512-k8KD0GqensSxxWabdMPr3y56sWedTCU9khYm/GoGGC/zq43Sptm7NhqENQVBA9TXaHOhQgTQRF+YIPWopSKaPQ==
+"@stryker-mutator/html-reporter@^2.5.0":
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/@stryker-mutator/html-reporter/-/html-reporter-2.5.0.tgz#4698ec900d874e912364f0acf940b73111103f5c"
+  integrity sha512-QB83lsYnaG7AtaMCpcSigw4Db0TqaThDonA7XrlOC6aaAyQIf+4/eyp7wMrFBELSs4TFcQFtI3+LBZuKZTAkXw==
   dependencies:
-    "@stryker-mutator/api" "^2.4.0"
-    "@stryker-mutator/util" "^2.4.0"
+    "@stryker-mutator/api" "^2.5.0"
+    "@stryker-mutator/util" "^2.5.0"
     file-url "~3.0.0"
     mkdirp "~0.5.1"
     mutation-testing-elements "^1.0.2"
@@ -1356,7 +1356,7 @@
     semver "~6.3.0"
     tslib "~1.10.0"
 
-"@stryker-mutator/util@^2.4.0", "@stryker-mutator/util@^2.5.0":
+"@stryker-mutator/util@^2.5.0":
   version "2.5.0"
   resolved "https://registry.yarnpkg.com/@stryker-mutator/util/-/util-2.5.0.tgz#486808420b30f671d17748fd3b94473107c9adf1"
   integrity sha512-l3bTvN2YbhwPPO0F6WBbUkgY6NC/34/jxpVQGlw0rZn72MPuRQBJtrfAH7KFN0OBG4QmIA6PC6c4z0X5IaWfow==
