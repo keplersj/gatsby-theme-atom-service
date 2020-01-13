@@ -37,7 +37,7 @@
     "@types/react-test-renderer": "^16.9.0",
     "gatsby": "^2.18.21",
     "jest": "^24.9.0",
-    "jest-preset-gatsby": "^1.0.24",
+    "jest-preset-gatsby": "^1.0.25",
     "jest-runner-prettier": "^0.3.1",
     "jest-serializer-json-ld-script": "^1.0.4",
     "jest-serializer-react-helmet": "^1.0.2",
