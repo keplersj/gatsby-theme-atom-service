@@ -61,7 +61,7 @@
     "gatsby-source-filesystem": "^2.1.46",
     "gatsby-transformer-yaml": "^2.2.23",
     "lodash": "^4.17.15",
-    "mkdirp": "^0.5.1",
+    "mkdirp": "^1.0.2",
     "react-helmet": "^5.2.1",
     "react-schemaorg": "^1.0.0",
     "schema-dts": "^0.5.1",
