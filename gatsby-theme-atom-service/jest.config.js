@@ -19,6 +19,15 @@ module.exports = {
         "/reports/",
         "/.stryker-tmp/"
       ]
+    },
+    {
+      displayName: "lint:eslint",
+      runner: "eslint",
+      testMatch: [
+        "<rootDir>/src/**/*.js",
+        "<rootDir>/src/**/*.ts",
+        "<rootDir>/src/**/*.tsx"
+      ]
     }
   ]
 };

@@ -30,7 +30,7 @@ const useStyles = makeStyles({
   }
 });
 
-export const Card = (props: Props) => {
+export const Card = (props: Props): React.ReactElement<Props> => {
   const classes = useStyles({});
 
   return (

@@ -11,7 +11,7 @@ const useStyles = makeStyles({
   }
 });
 
-const Footer = () => {
+const Footer = (): React.ReactElement => {
   const classes = useStyles({});
   const data = useStaticQuery(graphql`
     query FooterQuery {

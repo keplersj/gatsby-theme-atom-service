@@ -52,7 +52,7 @@ interface NavQuery {
   };
 }
 
-const Nav = () => {
+const Nav = (): React.ReactElement => {
   const classes = useStyles({});
   const [state, setState] = React.useState({
     drawerOpen: false
@@ -82,7 +82,7 @@ const Nav = () => {
 
   const toggleDrawer = (open: boolean) => (
     event: React.KeyboardEvent | React.MouseEvent
-  ) => {
+  ): void => {
     if (
       event.type === "keydown" &&
       ((event as React.KeyboardEvent).key === "Tab" ||

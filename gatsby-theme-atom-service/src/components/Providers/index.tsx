@@ -26,7 +26,7 @@ interface ProvidersQuery {
   };
 }
 
-const Providers = () => {
+const Providers = (): React.ReactElement => {
   const data = useStaticQuery<ProvidersQuery>(graphql`
     query ProvidersQuery {
       providers: allProvidersYaml {

@@ -10,7 +10,7 @@ const useStyles = makeStyles({
   }
 });
 
-const Header = () => {
+const Header = (): React.ReactElement => {
   const classes = useStyles({});
   const data = useStaticQuery(graphql`
     query HeroQuery {

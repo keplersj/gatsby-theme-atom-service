@@ -6,7 +6,7 @@ import { JsonLd } from "react-schemaorg";
 import { SoftwareApplication, SoftwareSourceCode } from "schema-dts";
 import { Card } from "../Card";
 
-const Consumers = () => {
+const Consumers = (): React.ReactElement => {
   const data = useStaticQuery(graphql`
     query ConsumersQuery {
       consumers: allConsumersYaml {
@@ -27,7 +27,7 @@ const Consumers = () => {
     <div id="consumers">
       <h2>Consumers</h2>
       <Grid container justify="space-evenly">
-        {sortBy(data.consumers.edges, "node.title").map(({ node }: any) => (
+        {sortBy(data.consumers.edges, "node.title").map(({ node }) => (
           <React.Fragment key={node.id}>
             <JsonLd<SoftwareApplication>
               item={{

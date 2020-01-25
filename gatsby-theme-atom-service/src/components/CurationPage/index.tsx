@@ -15,7 +15,7 @@ const useStyles = makeStyles({
   }
 });
 
-const Index = () => {
+const Index = (): React.ReactElement => {
   const classes = useStyles({});
 
   return (

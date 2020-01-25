@@ -2,7 +2,7 @@ import { graphql, useStaticQuery } from "gatsby";
 import * as React from "react";
 import { Helmet } from "react-helmet";
 
-const Head = () => {
+const Head = (): React.ReactElement => {
   const data = useStaticQuery(graphql`
     query HeadQuery {
       site {
