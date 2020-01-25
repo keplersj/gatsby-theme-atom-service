@@ -80,6 +80,9 @@ const Nav = (): React.ReactElement => {
     }
   `);
 
+  // Disabling this lint rule for now, it does raise a good point for future refactoring though.
+  // TODO: refactor
+  // eslint-disable-next-line unicorn/consistent-function-scoping
   const toggleDrawer = (open: boolean) => (
     event: React.KeyboardEvent | React.MouseEvent
   ): void => {
@@ -91,7 +94,10 @@ const Nav = (): React.ReactElement => {
       return;
     }
 
-    setState({ ...state, drawerOpen: open });
+    setState({
+      ...state,
+      drawerOpen: open
+    });
   };
 
   return (
