@@ -8,6 +8,7 @@ module.exports = {
     ({
       // these props are invalid for an `a` tag
       /* eslint-disable @typescript-eslint/no-unused-vars */
+      /* eslint-disable no-unused-vars */
       activeClassName,
       activeStyle,
       getProps,
@@ -16,6 +17,7 @@ module.exports = {
       ref,
       replace,
       /* eslint-enable @typescript-eslint/no-unused-vars */
+      /* eslint-enable no-unused-vars */
       to,
       ...rest
     }): React.ReactElement =>

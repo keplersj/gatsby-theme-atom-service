@@ -57,27 +57,27 @@ const Providers = (): React.ReactElement => {
           <Grid container justify="space-evenly">
             {sortBy(scope.types, "title").map(type => (
               <React.Fragment key={type.title}>
-                {type.packages.map(pkg => (
+                {type.packages.map(package_ => (
                   <JsonLd<SoftwareApplication>
-                    key={pkg.url}
+                    key={package_.url}
                     item={{
                       "@context": "https://schema.org",
                       "@type": "SoftwareApplication",
-                      "@id": pkg.url,
+                      "@id": package_.url,
                       applicationCategory: "Development Tool",
                       applicationSubCategory: "Atom Package",
-                      name: pkg.title,
-                      url: pkg.url,
-                      mainEntityOfPage: pkg.url,
+                      name: package_.title,
+                      url: package_.url,
+                      mainEntityOfPage: package_.url,
                       operatingSystem: "macOS, Windows, Linux"
                     }}
                   />
                 ))}
                 <Card
                   title={type.title}
-                  links={type.packages.map(pkg => ({
-                    name: pkg.title,
-                    url: pkg.url
+                  links={type.packages.map(package_ => ({
+                    name: package_.title,
+                    url: package_.url
                   }))}
                 />
               </React.Fragment>
