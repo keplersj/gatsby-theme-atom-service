@@ -48,7 +48,7 @@
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-test-renderer": "^16.10.2",
-    "semantic-release": "^17.0.1",
+    "semantic-release": "^17.0.2",
     "typescript": "^3.7.5"
   },
   "dependencies": {
