@@ -28,7 +28,7 @@
   "homepage": "https://github.com/keplersj/gatsby-theme-atom-service#readme",
   "devDependencies": {
     "@stryker-mutator/core": "^3.0.0",
-    "@stryker-mutator/html-reporter": "^2.5.0",
+    "@stryker-mutator/html-reporter": "^3.0.0",
     "@stryker-mutator/jest-runner": "^3.0.0",
     "@stryker-mutator/typescript": "^3.0.0",
     "@testing-library/react": "^9.5.0",
