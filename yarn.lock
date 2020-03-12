@@ -1378,13 +1378,13 @@
     surrial "^2.0.1"
     tslib "~1.11.1"
 
-"@stryker-mutator/core@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@stryker-mutator/core/-/core-3.0.0.tgz#161aecd4e437de785c1da0cc74de958177b36ae4"
-  integrity sha512-OnbkqoR7jd8I/y10ejq21pLGzRMCNP/XKgs4mGgz9KjsT2Y3oaYxPWdG0NMHKOGxkWa57bkvzLjkwwx0wHF8tg==
+"@stryker-mutator/core@^3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@stryker-mutator/core/-/core-3.0.1.tgz#e864b2ae3efcf09c4ee84a73fbbb31f1f223983a"
+  integrity sha512-8wU9Y69iu57eBy9ddgmKz2iVo+lTpVn+qGmTmAddBGqIjy4vrw7/ogjNZePrrgcUzPLKVJ3O8eEHIy1+nRjn9g==
   dependencies:
-    "@stryker-mutator/api" "^3.0.0"
-    "@stryker-mutator/util" "^3.0.0"
+    "@stryker-mutator/api" "^3.0.1"
+    "@stryker-mutator/util" "^3.0.1"
     chalk "~3.0.0"
     commander "~4.1.0"
     file-url "~3.0.0"
@@ -1432,10 +1432,10 @@
     semver "~6.3.0"
     tslib "~1.11.1"
 
-"@stryker-mutator/util@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@stryker-mutator/util/-/util-3.0.0.tgz#09c23db8eabe50d32dff66d102f29a56e8a6658e"
-  integrity sha512-5qilgq1gc255N1qpPa/5qHIJiEdRm30nE6HZS3QDtprmmfaq5f7lsac9OPOIKqYUHlnKqbAy0Pq9niKM9kh6qA==
+"@stryker-mutator/util@^3.0.0", "@stryker-mutator/util@^3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@stryker-mutator/util/-/util-3.0.1.tgz#adc181e946be5b76105e33c751c334b124816843"
+  integrity sha512-007GnZ/0l2Vk+rCD90SGPMHgjwjfIAcp7pmUbVFD6ZZYm2SPLeFP3EjDQesDStdeg0BObIx4T9J5t3W8Ps1pWg==
 
 "@szmarczak/http-timer@^1.1.2":
   version "1.1.2"
