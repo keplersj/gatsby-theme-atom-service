@@ -8463,10 +8463,10 @@ jest-serializer-json-ld-script@^1.0.7:
   resolved "https://registry.yarnpkg.com/jest-serializer-json-ld-script/-/jest-serializer-json-ld-script-1.0.7.tgz#cdaadd8f47700c133d900140f648d89800e00cfc"
   integrity sha512-CHjMASrhTAXxTCAwgY4wp2/8L5zdH2tRfkUbAOviXxPxxfO/Ez90v5sCQvwukumGzAoX5ORWS5Tx1icht8bgIQ==
 
-jest-serializer-react-helmet@^1.0.2:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/jest-serializer-react-helmet/-/jest-serializer-react-helmet-1.0.5.tgz#5194849b685f8e3b0a67f481ff1753f1b4d73ae9"
-  integrity sha512-EF57auULomoa9ThvxEUTKIouAY1istnKvxuuapFMMzRjHEzS9JVpzX80uVNiUgjOMnCt11YAlcC3KTiJPcweLA==
+jest-serializer-react-helmet@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/jest-serializer-react-helmet/-/jest-serializer-react-helmet-1.0.6.tgz#b571f86bc6cd58a2905fe8c692887251bdadce1e"
+  integrity sha512-7cNZduy5coZb4Pjoo3LR22HJKopX3jxdwFmuPoDSb8s69NsiwGl22/plp183RVdvTsuQ7uQ/ZGKNlKK4zLGEWg==
 
 jest-serializer@^25.1.0:
   version "25.1.0"
