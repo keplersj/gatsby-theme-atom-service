@@ -43,7 +43,7 @@
     "jest-runner-eslint": "^0.7.6",
     "jest-runner-prettier": "^0.3.6",
     "jest-serializer-json-ld-script": "^1.0.7",
-    "jest-serializer-react-helmet": "^1.0.2",
+    "jest-serializer-react-helmet": "^1.0.6",
     "prettier": "^1.18.2",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
