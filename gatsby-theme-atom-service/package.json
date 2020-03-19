@@ -45,7 +45,7 @@
     "jest-serializer-json-ld-script": "^1.0.7",
     "jest-serializer-react-helmet": "^1.0.6",
     "prettier": "^1.18.2",
-    "react": "^16.13.0",
+    "react": "^16.13.1",
     "react-dom": "^16.13.0",
     "react-test-renderer": "^16.13.0",
     "semantic-release": "^17.0.4",
