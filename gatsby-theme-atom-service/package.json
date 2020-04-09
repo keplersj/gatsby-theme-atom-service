@@ -65,7 +65,7 @@
     "gatsby-transformer-yaml": "^2.3.1",
     "lodash": "^4.17.15",
     "mkdirp": "^1.0.4",
-    "react-helmet": "^5.2.1",
+    "react-helmet": "^6.0.0",
     "react-schemaorg": "^1.0.1",
     "schema-dts": "^0.5.2",
     "typeface-roboto": "^0.0.75"
