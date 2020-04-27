@@ -44,7 +44,7 @@
     "jest-runner-prettier": "^0.3.6",
     "jest-serializer-json-ld-script": "^1.0.7",
     "jest-serializer-react-helmet": "^1.0.6",
-    "prettier": "^1.18.2",
+    "prettier": "^2.0.5",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-test-renderer": "^16.13.1",
@@ -52,7 +52,7 @@
     "typescript": "^3.8.3"
   },
   "dependencies": {
-    "@material-ui/core": "^4.9.5",
+    "@material-ui/core": "^4.9.12",
     "@material-ui/icons": "^4.9.1",
     "@material-ui/styles": "^4.9.10",
     "@types/lodash": "^4.14.150",

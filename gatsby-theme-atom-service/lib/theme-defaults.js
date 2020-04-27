@@ -10,6 +10,6 @@ module.exports = function getThemeDefaults(themeOptions) {
     assetPath,
     renderConsumers,
     renderProviders,
-    basePath
+    basePath,
   };
 };

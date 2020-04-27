@@ -18,7 +18,7 @@ exports[`Nav opens the drawer when the menu icon is pressed 1`] = `
         class="MuiListItemText-root"
       >
         <span
-          class="MuiTypography-root MuiListItemText-primary MuiTypography-body1"
+          class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
         >
           Example Link
         </span>
@@ -44,7 +44,7 @@ exports[`Nav opens the drawer when the menu icon is pressed 1`] = `
         class="MuiListItemText-root"
       >
         <span
-          class="MuiTypography-root MuiListItemText-primary MuiTypography-body1"
+          class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
         >
           Example Section
         </span>
@@ -93,7 +93,6 @@ exports[`Nav renders as expected 1`] = `
             aria-hidden="true"
             className="MuiSvgIcon-root"
             focusable="false"
-            role="presentation"
             viewBox="0 0 24 24"
           >
             <path

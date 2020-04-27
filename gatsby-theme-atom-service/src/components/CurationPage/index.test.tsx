@@ -11,11 +11,11 @@ describe("Curation Page", () => {
           title: "Example Site",
           siteUrl: "https://example.dev",
           description: "This is an example of a site description.",
-          nav: [{ name: "Example Link", url: "https://example2.dev/test" }]
-        }
+          nav: [{ name: "Example Link", url: "https://example2.dev/test" }],
+        },
       },
       logo: {
-        publicUrl: "/static/logo.svg"
+        publicUrl: "/static/logo.svg",
       },
       allProvidersYaml: {
         edges: [
@@ -23,10 +23,10 @@ describe("Curation Page", () => {
             node: {
               id: "123",
               title: "Example Catergory",
-              modal: "example-category"
-            }
-          }
-        ]
+              modal: "example-category",
+            },
+          },
+        ],
       },
       providers: {
         edges: [
@@ -42,14 +42,14 @@ describe("Curation Page", () => {
                   packages: [
                     {
                       title: "Example Provider",
-                      url: "https://example.dev/provider"
-                    }
-                  ]
-                }
-              ]
-            }
-          }
-        ]
+                      url: "https://example.dev/provider",
+                    },
+                  ],
+                },
+              ],
+            },
+          },
+        ],
       },
       consumers: {
         edges: [
@@ -59,11 +59,11 @@ describe("Curation Page", () => {
               author: "Name McNameson",
               title: "Example Consumer",
               url: "https://example.dev/consumer",
-              code: "https://github.com/example/atom-consumer"
-            }
-          }
-        ]
-      }
+              code: "https://github.com/example/atom-consumer",
+            },
+          },
+        ],
+      },
     }));
   });
 

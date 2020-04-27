@@ -54,7 +54,7 @@ const Consumers = (): React.ReactElement => {
                   applicationSubCategory: "Atom Package",
                   url: node.url,
                   mainEntityOfPage: node.url,
-                  operatingSystem: "macOS, Windows, Linux"
+                  operatingSystem: "macOS, Windows, Linux",
                 }}
               />
               <JsonLd<SoftwareSourceCode>
@@ -64,11 +64,11 @@ const Consumers = (): React.ReactElement => {
                   "@id": node.code,
                   targetProduct: {
                     "@type": "SoftwareApplication",
-                    "@id": node.url
+                    "@id": node.url,
                   },
                   codeRepository: node.code,
                   url: node.code,
-                  mainEntityOfPage: node.code
+                  mainEntityOfPage: node.code,
                 }}
               />
               <Card
@@ -76,7 +76,7 @@ const Consumers = (): React.ReactElement => {
                 subtitle={`Maintained by ${node.author}`}
                 links={[
                   { name: "Atom Package Manager", url: node.url },
-                  { name: "Source Code on GitHub", url: node.code }
+                  { name: "Source Code on GitHub", url: node.code },
                 ]}
               />
             </React.Fragment>

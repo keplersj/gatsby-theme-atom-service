@@ -20,15 +20,15 @@ describe("Providers", () => {
                   packages: [
                     {
                       title: "Example Package",
-                      url: "https://example.dev/provider"
-                    }
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      }
+                      url: "https://example.dev/provider",
+                    },
+                  ],
+                },
+              ],
+            },
+          },
+        ],
+      },
     }));
   });
 

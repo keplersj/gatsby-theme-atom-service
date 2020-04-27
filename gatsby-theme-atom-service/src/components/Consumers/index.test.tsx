@@ -14,11 +14,11 @@ describe("Consumers", () => {
               author: "Namey McNameson",
               title: "Example Consumer",
               url: "https://example.dev/consumer",
-              code: "https://github.dev/example/consumer"
-            }
-          }
-        ]
-      }
+              code: "https://github.dev/example/consumer",
+            },
+          },
+        ],
+      },
     }));
   });
 

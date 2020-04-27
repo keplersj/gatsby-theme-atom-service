@@ -13,10 +13,10 @@ describe("Nav", () => {
           nav: [
             {
               name: "Example Link",
-              url: "https://example.dev/"
-            }
-          ]
-        }
+              url: "https://example.dev/",
+            },
+          ],
+        },
       },
       allProvidersYaml: {
         edges: [
@@ -24,11 +24,11 @@ describe("Nav", () => {
             node: {
               id: "123",
               title: "Example Section",
-              modal: "example"
-            }
-          }
-        ]
-      }
+              modal: "example",
+            },
+          },
+        ],
+      },
     }));
   });
 

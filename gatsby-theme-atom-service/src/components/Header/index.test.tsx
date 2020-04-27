@@ -9,12 +9,12 @@ describe("Header", () => {
       site: {
         siteMetadata: {
           title: "Example Site",
-          description: "This is an example site description."
-        }
+          description: "This is an example site description.",
+        },
       },
       logo: {
-        publicURL: "/static/logo.svg"
-      }
+        publicURL: "/static/logo.svg",
+      },
     }));
   });
 

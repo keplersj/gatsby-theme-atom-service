@@ -6,9 +6,9 @@ module.exports = {
       preset: "jest-preset-gatsby/typescript",
       snapshotSerializers: [
         "jest-serializer-react-helmet",
-        "jest-serializer-json-ld-script"
+        "jest-serializer-json-ld-script",
       ],
-      collectCoverage: true
+      collectCoverage: true,
     },
     {
       displayName: "lint:prettier",
@@ -17,8 +17,8 @@ module.exports = {
         "/node_modules/",
         "/coverage/",
         "/reports/",
-        "/.stryker-tmp/"
-      ]
+        "/.stryker-tmp/",
+      ],
     },
     {
       displayName: "lint:eslint",
@@ -26,8 +26,8 @@ module.exports = {
       testMatch: [
         "<rootDir>/src/**/*.js",
         "<rootDir>/src/**/*.ts",
-        "<rootDir>/src/**/*.tsx"
-      ]
-    }
-  ]
+        "<rootDir>/src/**/*.tsx",
+      ],
+    },
+  ],
 };

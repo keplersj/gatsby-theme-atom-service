@@ -5,7 +5,7 @@ import {
   CardActions,
   Button,
   Grid,
-  Divider
+  Divider,
 } from "@material-ui/core";
 import { makeStyles } from "@material-ui/styles";
 
@@ -22,12 +22,12 @@ interface Props {
 
 const useStyles = makeStyles({
   gridItem: {
-    margin: "1em"
+    margin: "1em",
   },
   cardBase: {
     minWidth: "20em",
-    height: "100%"
-  }
+    height: "100%",
+  },
 });
 
 export const Card = (props: Props): React.ReactElement<Props> => {
@@ -43,7 +43,7 @@ export const Card = (props: Props): React.ReactElement<Props> => {
         <Divider />
         <CardActions>
           <Grid container direction="column" wrap="nowrap">
-            {props.links.map(link => (
+            {props.links.map((link) => (
               <Button key={link.name} href={link.url}>
                 {link.name}
               </Button>

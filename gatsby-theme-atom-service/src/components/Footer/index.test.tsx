@@ -8,9 +8,9 @@ describe("Footer", () => {
     (useStaticQuery as jest.Mock).mockImplementationOnce(() => ({
       site: {
         siteMetadata: {
-          title: "Example Title"
-        }
-      }
+          title: "Example Title",
+        },
+      },
     }));
   });
 

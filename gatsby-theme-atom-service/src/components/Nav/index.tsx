@@ -11,24 +11,24 @@ import {
   Divider,
   ListItem,
   ListItemText,
-  Hidden
+  Hidden,
 } from "@material-ui/core";
 import { Menu as MenuIcon } from "@material-ui/icons";
 import { makeStyles } from "@material-ui/core/styles";
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles((theme) => ({
   root: {
-    flexGrow: 1
+    flexGrow: 1,
   },
   bar: {
-    backgroundColor: "#66595c"
+    backgroundColor: "#66595c",
   },
   menuButton: {
-    marginRight: theme.spacing(2)
+    marginRight: theme.spacing(2),
   },
   title: {
-    flexGrow: 1
-  }
+    flexGrow: 1,
+  },
 }));
 
 interface NavQuery {
@@ -55,7 +55,7 @@ interface NavQuery {
 const Nav = (): React.ReactElement => {
   const classes = useStyles({});
   const [state, setState] = React.useState({
-    drawerOpen: false
+    drawerOpen: false,
   });
   const data = useStaticQuery<NavQuery>(graphql`
     query NavQuery {
@@ -96,7 +96,7 @@ const Nav = (): React.ReactElement => {
 
     setState({
       ...state,
-      drawerOpen: open
+      drawerOpen: open,
     });
   };
 
@@ -118,7 +118,7 @@ const Nav = (): React.ReactElement => {
               {data.site.siteMetadata.title}
             </Typography>
             <Hidden only={["xs", "sm"]}>
-              {data.site.siteMetadata.nav.map(link => (
+              {data.site.siteMetadata.nav.map((link) => (
                 <Button key={link.name} color="inherit" href={link.url}>
                   {link.name}
                 </Button>
@@ -135,7 +135,7 @@ const Nav = (): React.ReactElement => {
           onKeyDown={toggleDrawer(false)}
         >
           <List>
-            {data.site.siteMetadata.nav.map(link => (
+            {data.site.siteMetadata.nav.map((link) => (
               <ListItem button component="a" key={link.name} href={link.url}>
                 <ListItemText primary={link.name} />
               </ListItem>

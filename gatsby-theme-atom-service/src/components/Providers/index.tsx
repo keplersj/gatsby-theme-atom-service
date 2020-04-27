@@ -55,9 +55,9 @@ const Providers = (): React.ReactElement => {
         <div key={scope.id} id={scope.modal}>
           <h2>{scope.title}</h2>
           <Grid container justify="space-evenly">
-            {sortBy(scope.types, "title").map(type => (
+            {sortBy(scope.types, "title").map((type) => (
               <React.Fragment key={type.title}>
-                {type.packages.map(package_ => (
+                {type.packages.map((package_) => (
                   <JsonLd<SoftwareApplication>
                     key={package_.url}
                     item={{
@@ -69,15 +69,15 @@ const Providers = (): React.ReactElement => {
                       name: package_.title,
                       url: package_.url,
                       mainEntityOfPage: package_.url,
-                      operatingSystem: "macOS, Windows, Linux"
+                      operatingSystem: "macOS, Windows, Linux",
                     }}
                   />
                 ))}
                 <Card
                   title={type.title}
-                  links={type.packages.map(package_ => ({
+                  links={type.packages.map((package_) => ({
                     name: package_.title,
-                    url: package_.url
+                    url: package_.url,
                   }))}
                 />
               </React.Fragment>

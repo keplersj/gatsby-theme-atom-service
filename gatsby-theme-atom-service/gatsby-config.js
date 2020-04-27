@@ -1,12 +1,12 @@
 const getThemeDefaults = require("./lib/theme-defaults");
 
-module.exports = options => {
+module.exports = (options) => {
   const {
     contentPath,
     assetPath,
     renderConsumers,
     renderProviders,
-    basePath
+    basePath,
   } = getThemeDefaults(options);
 
   return {
@@ -17,18 +17,18 @@ module.exports = options => {
       color: {
         primary: "#efeae1",
         secondary: "#66595c",
-        active: "#81c08b"
+        active: "#81c08b",
       },
       nav: [
         {
           name: "Atom Package Manager",
-          url: "https://atom.dev/packages/example"
+          url: "https://atom.dev/packages/example",
         },
         {
           name: "GitHub",
-          url: "https://github.dev/example/example"
-        }
-      ]
+          url: "https://github.dev/example/example",
+        },
+      ],
     },
     plugins: [
       "gatsby-plugin-material-ui",
@@ -37,17 +37,17 @@ module.exports = options => {
       {
         resolve: "gatsby-source-filesystem",
         options: {
-          path: contentPath
-        }
+          path: contentPath,
+        },
       },
       {
         resolve: "gatsby-source-filesystem",
         options: {
-          path: assetPath
-        }
+          path: assetPath,
+        },
       },
       "gatsby-plugin-react-helmet",
-      "gatsby-plugin-typescript"
-    ]
+      "gatsby-plugin-typescript",
+    ],
   };
 };

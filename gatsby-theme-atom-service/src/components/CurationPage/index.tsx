@@ -11,8 +11,8 @@ import Providers from "../Providers";
 
 const useStyles = makeStyles({
   content: {
-    padding: "1em"
-  }
+    padding: "1em",
+  },
 });
 
 const Index = (): React.ReactElement => {

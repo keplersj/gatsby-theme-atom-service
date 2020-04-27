@@ -7,8 +7,8 @@ const useStyles = makeStyles({
   footer: {
     padding: "3em",
     backgroundColor: "#424242",
-    color: "white"
-  }
+    color: "white",
+  },
 });
 
 const Footer = (): React.ReactElement => {

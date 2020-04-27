@@ -23,9 +23,9 @@ module.exports = {
       resolve: "gatsby-theme-atom-service",
       options: {
         // customize any of the options below
-      }
-    }
-  ]
+      },
+    },
+  ],
 };
 ```
 
@@ -46,11 +46,11 @@ module.exports = {
     nav: [
       {
         name: "A Helpful Link for Navigation",
-        url: "https://helpful.dev/"
-      }
+        url: "https://helpful.dev/",
+      },
       /// ...
-    ]
-  }
+    ],
+  },
 };
 ```
 

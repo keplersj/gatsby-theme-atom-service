@@ -10,10 +10,10 @@ exports.onPreBootstrap = ({ store }, themeOptions) => {
 
   const dirs = [
     path.join(program.directory, contentPath),
-    path.join(program.directory, assetPath)
+    path.join(program.directory, assetPath),
   ];
 
-  dirs.forEach(dir => {
+  dirs.forEach((dir) => {
     if (!fs.existsSync(dir)) {
       mkdirp.sync(dir);
     }
@@ -30,6 +30,6 @@ exports.createPages = async ({ actions }, themeOptions) => {
   createPage({
     path: basePath,
     component: CurationPage,
-    context: {}
+    context: {},
   });
 };

@@ -10,9 +10,9 @@ describe("Head", () => {
         siteMetadata: {
           title: "Example Site",
           description: "This is a an example site description.",
-          siteUrl: "https://example.dev/"
-        }
-      }
+          siteUrl: "https://example.dev/",
+        },
+      },
     }));
   });
 

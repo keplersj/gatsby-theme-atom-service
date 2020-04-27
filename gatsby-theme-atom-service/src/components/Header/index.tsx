@@ -6,8 +6,8 @@ const useStyles = makeStyles({
   banner: {
     background: "#efeae1",
     textAlign: "center",
-    padding: "2em"
-  }
+    padding: "2em",
+  },
 });
 
 const Header = (): React.ReactElement => {
