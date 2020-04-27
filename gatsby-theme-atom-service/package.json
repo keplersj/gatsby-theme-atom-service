@@ -59,7 +59,7 @@
     "@types/react-helmet": "^5.0.15",
     "gatsby-plugin-lodash": "^3.3.0",
     "gatsby-plugin-material-ui": "^2.1.8",
-    "gatsby-plugin-react-helmet": "^3.2.5",
+    "gatsby-plugin-react-helmet": "^3.3.0",
     "gatsby-plugin-typescript": "^2.4.0",
     "gatsby-source-filesystem": "^2.3.0",
     "gatsby-transformer-yaml": "^2.4.0",
