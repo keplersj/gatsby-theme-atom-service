@@ -60,7 +60,7 @@
     "gatsby-plugin-lodash": "^3.2.4",
     "gatsby-plugin-material-ui": "^2.1.8",
     "gatsby-plugin-react-helmet": "^3.2.5",
-    "gatsby-plugin-typescript": "^2.3.5",
+    "gatsby-plugin-typescript": "^2.4.0",
     "gatsby-source-filesystem": "^2.2.5",
     "gatsby-transformer-yaml": "^2.3.4",
     "lodash": "^4.17.15",
