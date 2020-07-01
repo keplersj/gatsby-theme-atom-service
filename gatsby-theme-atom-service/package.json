@@ -61,7 +61,7 @@
     "gatsby-plugin-material-ui": "^2.1.9",
     "gatsby-plugin-react-helmet": "^3.3.6",
     "gatsby-plugin-typescript": "^2.4.8",
-    "gatsby-source-filesystem": "^2.3.14",
+    "gatsby-source-filesystem": "^2.3.16",
     "gatsby-transformer-yaml": "^2.4.6",
     "lodash": "^4.17.15",
     "mkdirp": "^1.0.4",
