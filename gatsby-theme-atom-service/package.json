@@ -63,7 +63,7 @@
     "gatsby-plugin-typescript": "^2.4.13",
     "gatsby-source-filesystem": "^2.3.18",
     "gatsby-transformer-yaml": "^2.4.9",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.18",
     "mkdirp": "^1.0.4",
     "react-helmet": "^6.1.0",
     "react-schemaorg": "^1.1.0",
