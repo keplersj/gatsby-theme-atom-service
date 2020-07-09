@@ -39,7 +39,7 @@
     "eslint-config-starstuff": "^1.4.42",
     "gatsby": "^2.24.1",
     "jest": "^25.5.4",
-    "jest-preset-gatsby": "^1.0.67",
+    "jest-preset-gatsby": "^1.0.68",
     "jest-runner-eslint": "^0.10.0",
     "jest-runner-prettier": "^0.3.6",
     "jest-serializer-json-ld-script": "^1.0.7",
