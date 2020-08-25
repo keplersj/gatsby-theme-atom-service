@@ -67,7 +67,7 @@
     "mkdirp": "^1.0.4",
     "react-helmet": "^6.1.0",
     "react-schemaorg": "^1.2.0",
-    "schema-dts": "^0.7.0",
+    "schema-dts": "^0.7.1",
     "typeface-roboto": "^0.0.75"
   },
   "peerDependencies": {
