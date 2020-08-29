@@ -55,7 +55,7 @@
     "@material-ui/core": "^4.9.12",
     "@material-ui/icons": "^4.9.1",
     "@material-ui/styles": "^4.9.14",
-    "@types/lodash": "^4.14.160",
+    "@types/lodash": "^4.14.161",
     "@types/react-helmet": "^6.1.0",
     "gatsby-plugin-lodash": "^3.3.10",
     "gatsby-plugin-material-ui": "^2.1.10",
