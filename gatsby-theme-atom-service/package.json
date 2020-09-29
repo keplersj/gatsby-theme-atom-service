@@ -62,7 +62,7 @@
     "gatsby-plugin-react-helmet": "^3.3.11",
     "gatsby-plugin-typescript": "^2.4.20",
     "gatsby-source-filesystem": "^2.3.31",
-    "gatsby-transformer-yaml": "^2.4.12",
+    "gatsby-transformer-yaml": "^2.4.13",
     "lodash": "^4.17.20",
     "mkdirp": "^1.0.4",
     "react-helmet": "^6.1.0",
