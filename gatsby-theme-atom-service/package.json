@@ -68,7 +68,7 @@
     "react-helmet": "^6.1.0",
     "react-schemaorg": "^1.2.0",
     "schema-dts": "^0.7.1",
-    "typeface-roboto": "^0.0.75"
+    "typeface-roboto": "^1.1.13"
   },
   "peerDependencies": {
     "gatsby": "^2.13.13",
