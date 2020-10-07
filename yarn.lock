@@ -10007,10 +10007,10 @@ jest-pnp-resolver@^1.2.1:
   resolved "https://registry.yarnpkg.com/jest-pnp-resolver/-/jest-pnp-resolver-1.2.1.tgz#ecdae604c077a7fbc70defb6d517c3c1c898923a"
   integrity sha512-pgFw2tm54fzgYvc/OHrnysABEObZCUNFnhjoRjaVOCN8NYc032/gVjPaHD4Aq6ApkSieWtfKAFQtmDKAmhupnQ==
 
-jest-preset-gatsby@^1.0.84:
-  version "1.0.84"
-  resolved "https://registry.yarnpkg.com/jest-preset-gatsby/-/jest-preset-gatsby-1.0.84.tgz#888a81879f79689964d1377d1299b0dc81313cf6"
-  integrity sha512-KLSaYMXa5uh1URXccBVwWoOtZuIhVtaYZ/QSSaJUrhnA3ZxteBJvqW8Z/BYIMBfJsRCfZ7NGlkT8KNVFS+l96g==
+jest-preset-gatsby@^1.0.85:
+  version "1.0.85"
+  resolved "https://registry.yarnpkg.com/jest-preset-gatsby/-/jest-preset-gatsby-1.0.85.tgz#b1f0d737a77de7b1939aa0136b38ba97fbbf1ecc"
+  integrity sha512-o9yIZs1LAAHKATYCqFcMWi10kEOnf9osorP1kYO+8xjBsfxYopE5Nz0TZSA9q4o60VDvENm/yYr3t42xNojprA==
   dependencies:
     "@babel/preset-typescript" "^7.9.0"
     babel-jest "^26.0.0"
