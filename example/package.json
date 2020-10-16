@@ -10,7 +10,7 @@
   "devDependencies": {
     "gatsby": "^2.24.78",
     "gatsby-theme-atom-service": "0.0.0-development",
-    "react": "^16.13.1",
+    "react": "^16.14.0",
     "react-dom": "^16.13.1"
   }
 }
