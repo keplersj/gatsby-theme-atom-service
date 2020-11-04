@@ -7052,7 +7052,7 @@ gatsby-cli@^2.12.116:
     yoga-layout-prebuilt "^1.9.6"
     yurnalist "^1.1.2"
 
-gatsby-core-utils@^1.3.23, gatsby-core-utils@^1.3.24:
+gatsby-core-utils@^1.3.24:
   version "1.3.24"
   resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-1.3.24.tgz#4da8dd3000c25f946bfd6020ee2773f5577a7583"
   integrity sha512-SlK7rJv/8NBYC8FodYvTINamBHadXNSv//a2uRwh44N1GSSujuCMvtUcpEuAdg9BUQHc54NbbmFuoqf8p85kgA==
@@ -9456,10 +9456,10 @@ jest-pnp-resolver@^1.2.1:
   resolved "https://registry.yarnpkg.com/jest-pnp-resolver/-/jest-pnp-resolver-1.2.1.tgz#ecdae604c077a7fbc70defb6d517c3c1c898923a"
   integrity sha512-pgFw2tm54fzgYvc/OHrnysABEObZCUNFnhjoRjaVOCN8NYc032/gVjPaHD4Aq6ApkSieWtfKAFQtmDKAmhupnQ==
 
-jest-preset-gatsby@^1.0.95:
-  version "1.0.95"
-  resolved "https://registry.yarnpkg.com/jest-preset-gatsby/-/jest-preset-gatsby-1.0.95.tgz#68efb774d683b78326e83e5543d74fdc6437c484"
-  integrity sha512-2lXQFGHqvjVb9IlksJCy6CPPOLKkysZnH+rbhH1TZKv/5ykq39WK9h70CBUlc0C66bM+NYYnanyYV7NV/yUR4Q==
+jest-preset-gatsby@^1.0.96:
+  version "1.0.96"
+  resolved "https://registry.yarnpkg.com/jest-preset-gatsby/-/jest-preset-gatsby-1.0.96.tgz#8062853bd4a69f73ea1e673217253530075fad96"
+  integrity sha512-iqMG9B3hbma6IPeeix988hO5mz+F/6A3N8eDqwp7zMUjRKsUYXHAqop2CIyUaieBaWRMiQVacEyKOkSqaRGOiw==
   dependencies:
     "@babel/preset-typescript" "^7.9.0"
     babel-jest "^26.0.0"
