@@ -54,7 +54,7 @@
   "dependencies": {
     "@material-ui/core": "^4.9.12",
     "@material-ui/icons": "^4.9.1",
-    "@material-ui/styles": "^4.9.14",
+    "@material-ui/styles": "^4.11.1",
     "@types/lodash": "^4.14.165",
     "@types/react-helmet": "^6.1.0",
     "gatsby-plugin-lodash": "^3.6.0",

@@ -1668,10 +1668,10 @@
     loose-envify "^1.4.0"
     prop-types "^15.6.2"
 
-"@material-ui/styles@^4.9.10", "@material-ui/styles@^4.9.14":
-  version "4.9.14"
-  resolved "https://registry.yarnpkg.com/@material-ui/styles/-/styles-4.9.14.tgz#0a9e93a2bf24e8daa0811411a6f3dabdafbe9a07"
-  integrity sha512-zecwWKgRU2VzdmutNovPB4s5LKI0TWyZKc/AHfPu9iY8tg4UoLjpa4Rn9roYrRfuTbBZHI6b0BXcQ8zkis0nzQ==
+"@material-ui/styles@^4.11.1", "@material-ui/styles@^4.9.10":
+  version "4.11.1"
+  resolved "https://registry.yarnpkg.com/@material-ui/styles/-/styles-4.11.1.tgz#089338637e9c358eddccd75c32f0bafd0237d573"
+  integrity sha512-GqzsFsVWT8jXa8OWAd1WD6WIaqtXr2mUPbRZ1EjkiM3Dlta4mCRaToDxkFVv6ZHfXlFjMJzdaIEvCpZOCvZTvg==
   dependencies:
     "@babel/runtime" "^7.4.4"
     "@emotion/hash" "^0.8.0"
