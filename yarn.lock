@@ -1981,7 +1981,16 @@
   dependencies:
     type-detect "4.0.8"
 
-"@stryker-mutator/api@^3.1.0", "@stryker-mutator/api@^3.3.1":
+"@stryker-mutator/api@4.2.0":
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/@stryker-mutator/api/-/api-4.2.0.tgz#798de8de5cb5833656dc44fef508fc7d17c94099"
+  integrity sha512-kCZwwFmz+yh/mu0932u9QhyP4cg8pJAtR/R25MbU983Sm1t5DBajBMbKDfHNpdPMP9OIF4nujmwWh5lE6CB8og==
+  dependencies:
+    mutation-testing-report-schema "~1.4.3"
+    surrial "~2.0.2"
+    tslib "~2.0.0"
+
+"@stryker-mutator/api@^3.3.1":
   version "3.3.1"
   resolved "https://registry.yarnpkg.com/@stryker-mutator/api/-/api-3.3.1.tgz#1a003c6ab21b4477e6251754451deb009107bd98"
   integrity sha512-t3TZyzxZYwZHUF1aCCpqLOQJjW0DZMZTrwGP/zGuDBUjr1/Opq+S6emeLFVjSJiDeMyqkqh9X01ZzHIWJPD+Sg==
@@ -2026,12 +2035,13 @@
   resolved "https://registry.yarnpkg.com/@stryker-mutator/html-reporter/-/html-reporter-3.1.0.tgz#b89692338037a0d168f9153457f5c71360c0c8c6"
   integrity sha512-Lpn9YGt4NS9lLYhjBNZ1yZ9tCX9FWa66skR6Ieij3wMMtQvPlSswar6fmVqUiyPl/wmpTGSoptOcWDFEZ5qp8A==
 
-"@stryker-mutator/jest-runner@^3.1.0":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@stryker-mutator/jest-runner/-/jest-runner-3.1.0.tgz#97051a9a81b620e6f09a9821f88ef4b1ce821b0f"
-  integrity sha512-IbnMjMEAiKmSuXJRYeScGEI1sssM4hNj82X0UGHfUlDbz8k1HWxfYjueHQ/DXurf6qXPd0LXwKh5rW1WLEYF6A==
+"@stryker-mutator/jest-runner@^4.2.0":
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/@stryker-mutator/jest-runner/-/jest-runner-4.2.0.tgz#e0ee7108061b9b7261d5685ab5ef3d610cb9efa2"
+  integrity sha512-vYBj0PbNDP6v3fV7xuj/vqz8LpaqrvMKmb1UWHLYVyzbRab2W0xZGWEI8SVjNcxHd32moIqBseSA7kY9sypvwQ==
   dependencies:
-    "@stryker-mutator/api" "^3.1.0"
+    "@stryker-mutator/api" "4.2.0"
+    "@stryker-mutator/util" "4.2.0"
     semver "~6.3.0"
 
 "@stryker-mutator/typescript@^3.3.1":
@@ -2044,6 +2054,13 @@
     lodash.flatmap "~4.5.0"
     semver "~6.3.0"
     tslib "~2.0.0"
+
+"@stryker-mutator/util@4.2.0":
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/@stryker-mutator/util/-/util-4.2.0.tgz#0fc3bb3940013bd0e2a2024639873c0fe5b32f38"
+  integrity sha512-zggTEAvuWxX5AcJBB5M00oXKxyzvG9mkejeJ00REr5UJVSKLPM+1dJsnaaYyJOs9m+4TDo/KxROmhZZuWmF0jw==
+  dependencies:
+    lodash.flatmap "~4.5.0"
 
 "@stryker-mutator/util@^3.3.1":
   version "3.3.1"
@@ -11216,6 +11233,11 @@ mutation-testing-report-schema@^1.3.0, mutation-testing-report-schema@~1.3.0:
   version "1.3.1"
   resolved "https://registry.yarnpkg.com/mutation-testing-report-schema/-/mutation-testing-report-schema-1.3.1.tgz#ad8f4ad2f9626e811f3c0710498f4e7fa2ca6968"
   integrity sha512-2T2A5qBg+2SZ7CtAvW5m4W95VJxZ/UsSWVwzv3VZpm7c2VoGgIWZGPiTC76a+gorxJobyCzkWv0902UNs4Wl5Q==
+
+mutation-testing-report-schema@~1.4.3:
+  version "1.4.3"
+  resolved "https://registry.yarnpkg.com/mutation-testing-report-schema/-/mutation-testing-report-schema-1.4.3.tgz#d9b57096dfe1efde10198247405c4679c67f390c"
+  integrity sha512-+TLMYFGFL8MtcbIF0g9VG+OS5qkPPaZtvyT0v/XWrKgrbAhpnJYNsZV9/xMWuO/V8WC02mLksn/HrDnKnIVqXw==
 
 mute-stream@0.0.7:
   version "0.0.7"
