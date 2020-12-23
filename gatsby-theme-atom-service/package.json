@@ -37,7 +37,7 @@
     "@types/react-test-renderer": "^17.0.0",
     "eslint": "^7.16.0",
     "eslint-config-starstuff": "^1.4.42",
-    "gatsby": "^2.29.1",
+    "gatsby": "^2.29.2",
     "jest": "^25.5.4",
     "jest-preset-gatsby": "^1.0.104",
     "jest-runner-eslint": "^0.10.0",
