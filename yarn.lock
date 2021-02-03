@@ -1981,7 +1981,16 @@
   dependencies:
     type-detect "4.0.8"
 
-"@stryker-mutator/api@^3.1.0", "@stryker-mutator/api@^3.3.1":
+"@stryker-mutator/api@4.4.1":
+  version "4.4.1"
+  resolved "https://registry.yarnpkg.com/@stryker-mutator/api/-/api-4.4.1.tgz#e4271909824211c1f342abb2487261dc409eb02d"
+  integrity sha512-qjkkdsOepy0NEGyxU2hvqQ70JFBaukkCO1MoWdG1e2oWpPQaTYNF+1W38fOF0QWGO0FVm50cA0wbf7Apqp5wIA==
+  dependencies:
+    mutation-testing-report-schema "~1.5.2"
+    surrial "~2.0.2"
+    tslib "~2.1.0"
+
+"@stryker-mutator/api@^3.3.1":
   version "3.3.1"
   resolved "https://registry.yarnpkg.com/@stryker-mutator/api/-/api-3.3.1.tgz#1a003c6ab21b4477e6251754451deb009107bd98"
   integrity sha512-t3TZyzxZYwZHUF1aCCpqLOQJjW0DZMZTrwGP/zGuDBUjr1/Opq+S6emeLFVjSJiDeMyqkqh9X01ZzHIWJPD+Sg==
@@ -2026,13 +2035,15 @@
   resolved "https://registry.yarnpkg.com/@stryker-mutator/html-reporter/-/html-reporter-3.1.0.tgz#b89692338037a0d168f9153457f5c71360c0c8c6"
   integrity sha512-Lpn9YGt4NS9lLYhjBNZ1yZ9tCX9FWa66skR6Ieij3wMMtQvPlSswar6fmVqUiyPl/wmpTGSoptOcWDFEZ5qp8A==
 
-"@stryker-mutator/jest-runner@^3.1.0":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@stryker-mutator/jest-runner/-/jest-runner-3.1.0.tgz#97051a9a81b620e6f09a9821f88ef4b1ce821b0f"
-  integrity sha512-IbnMjMEAiKmSuXJRYeScGEI1sssM4hNj82X0UGHfUlDbz8k1HWxfYjueHQ/DXurf6qXPd0LXwKh5rW1WLEYF6A==
+"@stryker-mutator/jest-runner@^4.4.1":
+  version "4.4.1"
+  resolved "https://registry.yarnpkg.com/@stryker-mutator/jest-runner/-/jest-runner-4.4.1.tgz#288476a4af1c0179eebc5dd77a781d44a9a9eb33"
+  integrity sha512-5sNE+kGaHe6pFK8D4t0WFM9Qx05ZvCdRkadcnHff+RvMCmVqRd4mUvH/VU35FPsrnBZb/IhnhP2wydijyc9e4w==
   dependencies:
-    "@stryker-mutator/api" "^3.1.0"
+    "@stryker-mutator/api" "4.4.1"
+    "@stryker-mutator/util" "4.4.1"
     semver "~6.3.0"
+    tslib "~2.1.0"
 
 "@stryker-mutator/typescript@^3.3.1":
   version "3.3.1"
@@ -2044,6 +2055,13 @@
     lodash.flatmap "~4.5.0"
     semver "~6.3.0"
     tslib "~2.0.0"
+
+"@stryker-mutator/util@4.4.1":
+  version "4.4.1"
+  resolved "https://registry.yarnpkg.com/@stryker-mutator/util/-/util-4.4.1.tgz#bc9587a5d54584173350b0fc622b5bd6bfbb4649"
+  integrity sha512-F0IFpjU6cc4H/exn8iI08QLqa7d5yLod+p5lI0IeddzQJQCs0ztMX5g9zqLU7nTCTcEbL2XgI9S8815/YbNjDQ==
+  dependencies:
+    lodash.flatmap "~4.5.0"
 
 "@stryker-mutator/util@^3.3.1":
   version "3.3.1"
@@ -11220,6 +11238,11 @@ mutation-testing-report-schema@^1.3.0, mutation-testing-report-schema@~1.3.0:
   resolved "https://registry.yarnpkg.com/mutation-testing-report-schema/-/mutation-testing-report-schema-1.3.1.tgz#ad8f4ad2f9626e811f3c0710498f4e7fa2ca6968"
   integrity sha512-2T2A5qBg+2SZ7CtAvW5m4W95VJxZ/UsSWVwzv3VZpm7c2VoGgIWZGPiTC76a+gorxJobyCzkWv0902UNs4Wl5Q==
 
+mutation-testing-report-schema@~1.5.2:
+  version "1.5.2"
+  resolved "https://registry.yarnpkg.com/mutation-testing-report-schema/-/mutation-testing-report-schema-1.5.2.tgz#0581a01c9d172cf944309e81e9e22090dd02b1e5"
+  integrity sha512-ad90c42vMHa0S4ZZ3e5oZOzGAWg4G8JWto9MrmDkrwInf/Dq+Q8FupCOOTqed0V9FTWqv4sl5arRlYEbedW6Ww==
+
 mute-stream@0.0.7:
   version "0.0.7"
   resolved "https://registry.yarnpkg.com/mute-stream/-/mute-stream-0.0.7.tgz#3075ce93bc21b8fab43e1bc4da7e8115ed1e7bab"
@@ -15792,12 +15815,12 @@ tslib@^1.10.0, tslib@^1.8.1, tslib@^1.9.0:
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.13.0.tgz#c881e13cc7015894ed914862d276436fa9a47043"
   integrity sha512-i/6DQjL8Xf3be4K/E6Wgpekn5Qasl1usyw++dAA35Ue5orEn65VIxOA+YvNNl9HV3qv70T7CNwjODHZrLwvd1Q==
 
-tslib@^2.0.0, tslib@~2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.0.0.tgz#18d13fc2dce04051e20f074cc8387fd8089ce4f3"
-  integrity sha512-lTqkx847PI7xEDYJntxZH89L2/aXInsyF2luSafe/+0fHOMjlBNXdH6th7f70qxLDhul7KZK0zC8V5ZIyHl0/g==
+tslib@^2.0.0, tslib@~2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.1.0.tgz#da60860f1c2ecaa5703ab7d39bc05b6bf988b97a"
+  integrity sha512-hcVC3wYEziELGGmEEXue7D75zbwIIVUMWAVbHItGPx0ziyXxrOMQx4rQEVEV45Ut/1IotuEvwqPopzIOkDMf0A==
 
-tslib@~2.0.1:
+tslib@~2.0.0, tslib@~2.0.1:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.0.3.tgz#8e0741ac45fc0c226e58a17bfc3e64b9bc6ca61c"
   integrity sha512-uZtkfKblCEQtZKBF6EBXVZeQNl82yqtDQdv+eck8u7tdPxjLu2/lp5/uPW+um2tpuxINHWy3GhiccY7QgEaVHQ==
