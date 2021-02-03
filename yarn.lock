@@ -7221,10 +7221,10 @@ gatsby-page-utils@^0.8.0:
     lodash "^4.17.20"
     micromatch "^4.0.2"
 
-gatsby-plugin-lodash@^3.9.0:
-  version "3.9.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-lodash/-/gatsby-plugin-lodash-3.9.0.tgz#28c9ec07c807208833acc5e9d622c989920a0092"
-  integrity sha512-l5MDjh9wQYssyjdYy/hxBSVcyzHXUSfWFz++2PrI0fkSE/g+cYippX4pHVNLlPFVm1r5hkge0/IO/kADg5gUXw==
+gatsby-plugin-lodash@^3.10.0:
+  version "3.10.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-lodash/-/gatsby-plugin-lodash-3.10.0.tgz#36a97c59afe3660b427c90e80edb808317ef983e"
+  integrity sha512-kKmI385lbzeV51Suazkj9u46xddpOEYbFr36JqrBQSUVLr1j5/p7hsTTXiY+hkjpQgX9WtfrH70J6etFa21pZA==
   dependencies:
     "@babel/runtime" "^7.12.5"
     babel-plugin-lodash "^3.3.4"
