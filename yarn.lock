@@ -3363,26 +3363,6 @@ babel-preset-current-node-syntax@^0.1.2:
     "@babel/plugin-syntax-optional-catch-binding" "^7.8.3"
     "@babel/plugin-syntax-optional-chaining" "^7.8.3"
 
-babel-preset-gatsby@^0.11.0:
-  version "0.11.0"
-  resolved "https://registry.yarnpkg.com/babel-preset-gatsby/-/babel-preset-gatsby-0.11.0.tgz#06e769ec8888dfa3bda17762def15dca3cc59bae"
-  integrity sha512-0kZ5KK02RKmnCab897XOP1xWcFthumcmI6Y3R0gFBv4w4qZR4fTLk/iIeNz24oQGaRXO0QprsssdVEVfDlewNw==
-  dependencies:
-    "@babel/plugin-proposal-class-properties" "^7.12.1"
-    "@babel/plugin-proposal-nullish-coalescing-operator" "^7.12.1"
-    "@babel/plugin-proposal-optional-chaining" "^7.12.1"
-    "@babel/plugin-syntax-dynamic-import" "^7.8.3"
-    "@babel/plugin-transform-runtime" "^7.12.1"
-    "@babel/plugin-transform-spread" "^7.12.1"
-    "@babel/preset-env" "^7.12.1"
-    "@babel/preset-react" "^7.12.5"
-    "@babel/runtime" "^7.12.5"
-    babel-plugin-dynamic-import-node "^2.3.3"
-    babel-plugin-macros "^2.8.0"
-    babel-plugin-transform-react-remove-prop-types "^0.4.24"
-    gatsby-core-utils "^1.9.0"
-    gatsby-legacy-polyfills "^0.6.0"
-
 babel-preset-gatsby@^0.12.0:
   version "0.12.0"
   resolved "https://registry.yarnpkg.com/babel-preset-gatsby/-/babel-preset-gatsby-0.12.0.tgz#cde244b45462d5dd14a2b946416fbe2d7f15c2ba"
@@ -7208,7 +7188,7 @@ gatsby-cli@^2.19.0:
     yoga-layout-prebuilt "^1.9.6"
     yurnalist "^2.1.0"
 
-gatsby-core-utils@^1.10.0, gatsby-core-utils@^1.9.0:
+gatsby-core-utils@^1.10.0:
   version "1.10.0"
   resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-1.10.0.tgz#7df5bc7b7e810c71602d5ec18a925e8a7890fb45"
   integrity sha512-uI5gJXmVHegn8E/vttoX0BaXRJPC73RzxuZDtl2U5WBEgeg+VVkKCmNVQE9Xk+Qstm2Wd6RU+QJ4LMx5ywYZhQ==
@@ -7227,13 +7207,6 @@ gatsby-graphiql-explorer@^0.11.0:
   integrity sha512-mmxQhQSDUkbtOhQUek9a9sSg6LpiQUytNNR2hec8iklau2D4MDA5CvHTk9GUGhjdUgtnHSe/MPyZVJGmXSnYAA==
   dependencies:
     "@babel/runtime" "^7.12.5"
-
-gatsby-legacy-polyfills@^0.6.0:
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/gatsby-legacy-polyfills/-/gatsby-legacy-polyfills-0.6.0.tgz#e751864f179f8e61de8bfdd1aab4532496b9be9a"
-  integrity sha512-w6ZnPi3JWhvfEwNgxGA42XFzytsKsGj5uQnEsQzDU8JgVD7WXT4vPlbLUF/RjqIjcVrbLWkYWkLLeZG4fdX28Q==
-  dependencies:
-    core-js-compat "^3.6.5"
 
 gatsby-legacy-polyfills@^0.7.0:
   version "0.7.0"
@@ -9648,14 +9621,14 @@ jest-pnp-resolver@^1.2.1:
   resolved "https://registry.yarnpkg.com/jest-pnp-resolver/-/jest-pnp-resolver-1.2.1.tgz#ecdae604c077a7fbc70defb6d517c3c1c898923a"
   integrity sha512-pgFw2tm54fzgYvc/OHrnysABEObZCUNFnhjoRjaVOCN8NYc032/gVjPaHD4Aq6ApkSieWtfKAFQtmDKAmhupnQ==
 
-jest-preset-gatsby@^1.0.109:
-  version "1.0.109"
-  resolved "https://registry.yarnpkg.com/jest-preset-gatsby/-/jest-preset-gatsby-1.0.109.tgz#0a99ead0f0d9db73efce439888b6d63ccc7cbe90"
-  integrity sha512-Bl1utd8GCNUEUW3N5Fua1bXn/dyc/M+652CPj9hne7qA25IBFHCsg6U8iEaLXbH6XcRblQnGsGMmGirV+QKbuQ==
+jest-preset-gatsby@^1.0.110:
+  version "1.0.110"
+  resolved "https://registry.yarnpkg.com/jest-preset-gatsby/-/jest-preset-gatsby-1.0.110.tgz#d921f1cb88ece0ffe3c474decce5840a98722b95"
+  integrity sha512-m9ZAVTObDOa57BEs+EYmp/gdbQ19+3mZO+iMAL16fxPj1kcYu1DC5cdLfB52fImStNgGn8jOnNtGONfoAzZMdA==
   dependencies:
     "@babel/preset-typescript" "^7.9.0"
     babel-jest "^26.0.0"
-    babel-preset-gatsby "^0.11.0"
+    babel-preset-gatsby "^0.12.0"
     identity-obj-proxy "^3.0.0"
     jest-raw-loader "^1.0.1"
 
