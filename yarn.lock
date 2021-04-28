@@ -7374,14 +7374,14 @@ gatsby-telemetry@^1.10.1:
     node-fetch "^2.6.1"
     uuid "3.4.0"
 
-gatsby-transformer-yaml@^2.11.0:
-  version "2.11.0"
-  resolved "https://registry.yarnpkg.com/gatsby-transformer-yaml/-/gatsby-transformer-yaml-2.11.0.tgz#b99377e2feaec20df4c1a90cce6cb28aa7c929fb"
-  integrity sha512-+PTsnXdmKUbqqZH1cE3SnrDHKxE0ElNRGBDoDQjuz/ip5EnIcxHRj/nnzUA6RkcZ/a9UB4e2xaNOZAJbwDyqKg==
+gatsby-transformer-yaml@^3.4.0:
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/gatsby-transformer-yaml/-/gatsby-transformer-yaml-3.4.0.tgz#8682fa2c9b608b51db6276a2c907c08140466ae3"
+  integrity sha512-rUohmX0UALxsYs/v3eEu8vrn9O8CnMUF+7oskpWqVZnOHAt/pEIIver3BVY3xJnQExCTSAsuhIhx7oIuvRVn2w==
   dependencies:
     "@babel/runtime" "^7.12.5"
     js-yaml "^3.14.1"
-    lodash "^4.17.20"
+    lodash "^4.17.21"
     unist-util-select "^1.5.0"
 
 gatsby@^2.32.9:
