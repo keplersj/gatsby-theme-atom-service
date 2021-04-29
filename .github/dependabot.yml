@@ -1,0 +1,53 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "12:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: gatsby-transformer-yaml
+    versions:
+    - 3.0.0
+    - 3.1.0
+    - 3.2.0
+    - 3.3.0
+  - dependency-name: gatsby-plugin-lodash
+    versions:
+    - 4.0.0
+    - 4.1.0
+    - 4.2.0
+    - 4.3.0
+  - dependency-name: gatsby-source-filesystem
+    versions:
+    - 3.0.0
+    - 3.1.0
+    - 3.2.0
+    - 3.3.0
+  - dependency-name: gatsby-plugin-react-helmet
+    versions:
+    - 4.0.0
+    - 4.1.0
+    - 4.2.0
+    - 4.3.0
+  - dependency-name: "@stryker-mutator/core"
+    versions:
+    - 4.4.1
+    - 4.5.0
+    - 4.5.1
+  - dependency-name: "@stryker-mutator/jest-runner"
+    versions:
+    - 4.4.1
+    - 4.5.0
+    - 4.5.1
+  - dependency-name: "@material-ui/core"
+    versions:
+    - 4.11.3
+  - dependency-name: "@material-ui/styles"
+    versions:
+    - 4.11.3
+  commit-message:
+    prefix: fix
+    prefix-development: chore
+    include: scope
